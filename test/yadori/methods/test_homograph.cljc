@@ -1,6 +1,5 @@
-#!/usr/bin/env bb
 ;; yadori 宿り — tests for the IDN homograph (mixed-script) confusable screen.
-;; Run:  bb --classpath 20-actors 20-actors/yadori/methods/test_homograph.cljc
+;; Run with `bb test`.
 (ns yadori.methods.test-homograph
   "Tests for mixed-script-label? / label-scripts — the G6/N2 confusable-screen primitive that flags an
   IDN HOMOGRAPH (a label mixing Unicode scripts, e.g. a Cyrillic 'а' impersonating Latin 'apple')

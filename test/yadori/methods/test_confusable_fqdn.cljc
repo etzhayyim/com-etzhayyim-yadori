@@ -1,6 +1,5 @@
-#!/usr/bin/env bb
 ;; yadori 宿り — tests for the FQDN-level confusable (IDN-homograph) screen.
-;; Run:  bb --classpath 20-actors 20-actors/yadori/methods/test_confusable_fqdn.cljc
+;; Run with `bb test`.
 (ns yadori.methods.test-confusable-fqdn
   "Tests for confusable-fqdn? / confusable-labels — the domain-level G6/N2 confusable screen that
   checks EVERY label (a homograph can hide in a subdomain or the second-level name), composing the

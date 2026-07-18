@@ -1,0 +1,5 @@
+{:identity/id "yadori"
+ :identity/glyph "宿"
+ :identity/did "did:web:etzhayyim.com:actor:yadori"
+ :identity/wire-document "wire/identity/did.json"
+ :identity/wire-profile "wire/identity/profile.json"}

@@ -2,7 +2,7 @@
   "test_availability.py — tests for the yadori RDAP availability classifier (ADR-2606038400).
   1:1 Clojure port of methods/test_availability.py (pytest -> clojure.test).
 
-  Run from 20-actors as the bb source root (see VERIFY in the task), or via -main."
+  Run with `bb test`."
   (:require [clojure.test :refer [deftest is run-tests]]
             [yadori.methods.availability :as a]))
 
